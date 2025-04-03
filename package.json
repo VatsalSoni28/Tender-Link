@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "react-scripts": "^5.0.1"
+  },
+  "name": "tendorboys",
+  "version": "1.0.0",
+  "description": "\"# Tendor Boys\"",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,85 @@
+/* Base navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+/* Logo section */
+.navbar-logo a {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333333;
+  text-decoration: none;
+}
+
+/* Links section (centered) */
+.navbar-links {
+  display: flex;
+  gap: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); /* Center the links */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #666666;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #673ab7; /* Hover color */
+}
+
+.active-link {
+  color: #673ab7; /* Active link color */
+  border-bottom: 2px solid #673ab7; /* Underline for active links */
+}
+
+/* Contact section (Shifted right with slight adjustment) */
+.navbar-contact {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  font-size: 1rem;
+  margin-right: 30px; /* Add some margin to shift the login button slightly left */
+}
+
+/* Login button */
+.nav-login-link {
+  text-decoration: none;
+  color: #333333;
+  font-weight: bold;
+  border: 1px solid #673ab7;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  transition: all 0.3s ease;
+}
+
+.nav-login-link:hover {
+  background-color: #673ab7;
+  color: #ffffff;
+}
+
+/* Additional styles to ensure content below navbar is not hidden */
+body {
+  margin-top: 50px; /* Prevents the navbar from overlapping content */
+}

@@ -1,0 +1,27 @@
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: rgba(97, 94, 253, 1);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu-item {
+    padding: 15px 0;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu-item:hover,
+  .menu-item.active {
+    background-color: #ffffff;
+    color: black;
+  }
+  
+  .logout {
+    margin-top: auto;
+    color: red;
+  }
+  
